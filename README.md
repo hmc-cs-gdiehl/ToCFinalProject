@@ -37,9 +37,9 @@ Example code for running experiments can be found in experimentScript.py.
 To run a batch of experiments, use the following command:
 
 ```
-python experimentScript.py [inFolder] [outFile]
+python solver.py -e [inFolder] [outFile]
 ```
 
 The output folder contains the name of each input problem file, the time that was required to find a solution, and the utility of the solution found.
 
-An example of how to generate input problems can be found in problemGeneration.py. This method of problem generation is described in writeup.pdf, and the full set of problems used to evaluate this coalition formation solver can be found in the Experiments folder.
+An example of how to generate input problems can be found in problemGenerator.py. This method of problem generation is described in writeup.pdf.
